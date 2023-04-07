@@ -86,6 +86,7 @@ def menu():
     Instructions.place(relx=0.725, rely=0.6, anchor=ttk.S)
     Leaderboard = ttk.Button(lmenu, text="Leaderboard", font=Butons, fg="White", bg="black", relief="flat")
     Leaderboard.place(relx=0.725, rely=0.75, anchor=ttk.S)
+
     # Start the main loop
     menu_a.mainloop()
 
